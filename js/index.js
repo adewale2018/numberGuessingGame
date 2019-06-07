@@ -1,5 +1,4 @@
 let randomNumber = Math.floor(Math.random() * 100) + 1;
-console.log(randomNumber);
 let guesses = document.querySelector('.guesses');
 let lastResult = document.querySelector('.lastResult');
 let lowOrHigh = document.querySelector('.lowOrHigh');
